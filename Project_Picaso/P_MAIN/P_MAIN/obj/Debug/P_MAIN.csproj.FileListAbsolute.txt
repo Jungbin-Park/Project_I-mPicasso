@@ -1,0 +1,155 @@
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe.config
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.pdb
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.AssemblyReference.cache
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.SuggestedBindingRedirects.cache
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Form1.resources
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Resources.resources
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.GenerateResource.cache
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CoreCompileInputs.cache
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.exe
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.pdb
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Buffers.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Memory.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.dll
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Buffers.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Memory.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.xml
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CopyComplete
+F:\#0_개인자료\project\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Form2.resources
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe.config
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.pdb
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Buffers.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Memory.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.dll
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Buffers.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Memory.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.xml
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.AssemblyReference.cache
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.SuggestedBindingRedirects.cache
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Form1.resources
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Form2.resources
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Resources.resources
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.GenerateResource.cache
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CoreCompileInputs.cache
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CopyComplete
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.exe
+C:\Users\AIA\Downloads\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.pdb
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe.config
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.pdb
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Buffers.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Memory.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.xml
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Form1.resources
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Form2.resources
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Resources.resources
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.GenerateResource.cache
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CopyComplete
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.exe
+C:\Users\user\Desktop\[팀 ] 프로젝트 (2)\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.pdb
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe.config
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\P_MAIN.pdb
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Buffers.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Memory.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Buffers.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Memory.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.AssemblyReference.cache
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.SuggestedBindingRedirects.cache
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Form1.resources
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Form2.resources
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Resources.resources
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.GenerateResource.cache
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CoreCompileInputs.cache
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CopyComplete
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.exe
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\[팀 ] 프로젝트\P_MAIN\P_MAIN\obj\Debug\P_MAIN.pdb
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe.config
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\P_MAIN.exe
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\P_MAIN.pdb
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Buffers.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Memory.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.dll
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Buffers.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Memory.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Text.Json.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\bin\Debug\System.ValueTuple.xml
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.AssemblyReference.cache
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.SuggestedBindingRedirects.cache
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Form1.resources
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Form2.resources
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.Properties.Resources.resources
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.GenerateResource.cache
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CoreCompileInputs.cache
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.csproj.CopyComplete
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.exe
+C:\Users\AIA\Desktop\Project_Picaso_[합침]\Project_Picaso\P_MAIN\P_MAIN\obj\Debug\P_MAIN.pdb

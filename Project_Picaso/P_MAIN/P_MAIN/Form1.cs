@@ -15,6 +15,7 @@ using System.Threading;
 using P_MAIN.Properties;
 using System.Runtime.Remoting.Messaging;
 using System.Drawing.Drawing2D;
+using System.Text.RegularExpressions;
 
 namespace P_MAIN
 {
@@ -41,11 +42,19 @@ namespace P_MAIN
         {
             // CMD = 'C';
             public bool CLICK { get; set; }
-
             public int X { get; set; }
             public int Y { get; set; }
         }
 
+        class ColorPacket : CmdPacket
+        {
+            public int COLOR { get; set; }
+
+            //public ColorPacket()
+            //{
+            //    COLOR = Color.Black; // 기본값
+            //}
+        }
         //서버 관련 필드
         Socket clientSocket;
         IPEndPoint ipep;        // 서버의 접속 주소
@@ -64,16 +73,23 @@ namespace P_MAIN
         Dictionary<string, Point> playerLocation = new Dictionary<string, Point>();
         Dictionary<string, Point> playerLocation_End = new Dictionary<string, Point>();
 
+        //색 변환
+        Dictionary<string, int> player_int = new Dictionary<string, int>();
+        Dictionary<string, Color> player_Color = new Dictionary<string, Color>();
+
         //정답
-        string word = "";
-        string hint = "";
-        string Long = "";
+        string word = null;
+        string hint = null;
+        string Long = null;
 
 
         //그래픽 패널 필드
         //Graphics g;       
-        int dr = 2;       
-        Pen pen;
+        int dr = 2;
+        //Pen pen;
+        Pen client_pen;
+        Pen server_pen;
+        Color server_color = Color.Black;
         Color cl;
 
         //타이머 필드
@@ -81,6 +97,7 @@ namespace P_MAIN
         int sec = 0;
 
         System.Windows.Forms.Timer tm = new System.Windows.Forms.Timer();
+        System.Windows.Forms.Timer tm1 = new System.Windows.Forms.Timer();
 
 
         public Form1()
@@ -89,7 +106,9 @@ namespace P_MAIN
 
             //드로잉
             // 봐야할부분
-            pen = new Pen(Color.Black, dr);
+            //pen = new Pen(Color.Black, dr);
+            client_pen = new Pen(Color.Black);
+            server_pen = new Pen(Color.Black);
 
             //서버관련 
             this.DoubleBuffered = true;
@@ -101,10 +120,41 @@ namespace P_MAIN
 
             //타이머
             tm.Interval = 1000;
+            tm1.Interval = 1000;
             tm.Tick += Tm_Tick;
+            tm1.Tick += Tm1_Tick;
             this.Paint += Form1_Paint;
 
         }
+
+        private void Tm1_Tick(object sender, EventArgs e)
+        {
+            
+            if (textBox1.Text == word)
+            {
+                tm.Start();
+            }
+            
+        }
+
+        // 타이머
+        private void Tm_Tick(object sender, EventArgs e)
+        {
+            sec++;
+            if (sec == 60)
+            {
+                min++;
+                if (min == 2)
+                {
+
+                    tm.Stop();
+                }
+                sec = 0;
+
+            }
+            Invalidate();
+        }
+
         private void button_RE_Click(object sender, EventArgs e)
         {
             //this.Hide();
@@ -134,9 +184,14 @@ namespace P_MAIN
             Graphics g = panel_Drawing.CreateGraphics();
             sec = 0;
             min = 0;
+            textBox1.Text = null;
+            textBox2.Text = null;
+            textBox3.Text = null;
+            tm.Stop();
+            tm1.Stop();
             // 2
-            //panel_Drawing.Invalidate(); 
-            Invalidate();
+            panel_Drawing.Invalidate(); 
+            
             g.Clear(Color.White);
         }
 
@@ -150,6 +205,11 @@ namespace P_MAIN
             this.addMsgLogData = AddMsgLogListBox;
             this.stopButtonState = StopButtonState;
 
+            tm1.Start();
+
+            textBox1.Enabled = true;
+            textBox2.Enabled = true;
+            textBox3.Enabled = true;
             button_exit.Enabled = false;
             textBox_Chat.Enabled = false;
         }
@@ -179,11 +239,18 @@ namespace P_MAIN
                     string data = sr.ReadLine();
 
                     // DB
-                    string[] rdata = data.Split(',');
-                    hint = rdata[0];
-                    Long = rdata[1];
-                    word = rdata[2];
-                    //AddMsgLogListBox($"==> 수신 : {data}");
+                    if (data.Contains('|'))
+                    {
+                        string[] rdata = data.Split('|');
+                        hint = rdata[0];
+                        Long = rdata[1];
+                        word = rdata[2];
+                        textBox1.Text = word;
+                        textBox2.Text = hint;
+                        textBox3.Text = Long;
+                    }                    
+
+                    //AddMsgLogListBox($"==> 수신 : {rdata},{data}");
                     if (data == null)
                     {
                         this.isRunRecv = false;
@@ -201,12 +268,30 @@ namespace P_MAIN
                             // 명령을 확인한 후 어떤 클래스로 변환할 지 결정함
                             case 'P':
                                 PositionPacket pp = JsonSerializer.Deserialize<PositionPacket>(data);
+                                ColorPacket colp = JsonSerializer.Deserialize<ColorPacket>(data); 
                                 Graphics g = panel_Drawing.CreateGraphics();
                                 g.SmoothingMode = SmoothingMode.AntiAlias;
+                                                                
                                 if (playerLocation.ContainsKey(textBox_ID.Text))
                                 {
-                                    g.DrawLine(pen, playerLocation_End[cmd.ID].X, playerLocation_End[cmd.ID].Y, pp.X, pp.Y);
-
+                                    //server_color = ColorTranslator.FromOle(colp.COLOR);
+                                    if (player_Color.ContainsKey(cmd.ID) == false)
+                                    {
+                                        g.DrawLine(Pens.Black, playerLocation_End[cmd.ID].X, playerLocation_End[cmd.ID].Y, pp.X, pp.Y);
+                                        playerLocation_End[cmd.ID] = new Point(pp.X, pp.Y);
+                                        continue;
+                                    }
+                                    else if(player_Color[cmd.ID] == Color.White)
+                                    {
+                                        Pen erase_pen = new Pen(Color.White, 5);
+                                        g.DrawLine(erase_pen, playerLocation_End[cmd.ID].X, playerLocation_End[cmd.ID].Y, pp.X, pp.Y);
+                                        playerLocation_End[cmd.ID] = new Point(pp.X, pp.Y);
+                                        continue;
+                                    }
+                                    //Console.WriteLine(player_Color[cmd.ID]);
+                                    server_pen = new Pen(player_Color[cmd.ID]);
+                                   // Console.WriteLine($"P if {player_Color[cmd.ID]}");
+                                    g.DrawLine(server_pen, playerLocation_End[cmd.ID].X, playerLocation_End[cmd.ID].Y, pp.X, pp.Y);
                                     playerLocation_End[cmd.ID] = new Point(pp.X, pp.Y);
                                 }
                                 break;
@@ -216,10 +301,56 @@ namespace P_MAIN
                                 {
                                     playerLocation_End[cmd.ID] = new Point(cp.X, cp.Y);
                                 }
+                                //else
+                                //{
+                                //    MessageBox.Show("색또는 아이디를 지정해주세요");
+                                //}
+                                break;
+                            case 'R':
+                                colp = JsonSerializer.Deserialize<ColorPacket>(data);
+                                //if (playerLocation.ContainsKey(textBox_ID.Text))
+                                //{
+                                //    server_color = ColorTranslator.FromOle(colp.COLOR);
+                                //    Console.WriteLine(server_color);
+                                //    if (server_color == Color.Empty)
+                                //    {
+                                //        Console.WriteLine($"R if 색이 빈 값입니다.");
+                                //        server_pen = new Pen(Color.Black, dr);  //검은색 기본값
+                                //    }
+                                //    else
+                                //    {
+                                //        Console.WriteLine($"R else {server_color}");
+                                //        server_pen = new Pen(server_color, dr);
+                                //        //pen = new Pen(colp.COLOR, dr);
+                                //    }
+                                //}
+                                if (player_Color.ContainsKey(cmd.ID))
+                                {
+                                    player_Color[cmd.ID] = ColorTranslator.FromOle(colp.COLOR);
+                                    Console.WriteLine(player_Color[cmd.ID]);
+                                    if (player_Color[cmd.ID] == Color.Empty)
+                                    {
+                                        Console.WriteLine($"R if 색이 빈 값입니다.");
+                                        server_pen = new Pen(Color.Black);  //검은색 기본값
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine($"R else {player_Color[cmd.ID]}");
+                                        server_pen = new Pen(player_Color[cmd.ID]);
+                                        //pen = new Pen(colp.COLOR, dr);
+                                    }
+                                }
+                                else
+                                {
+                                    Color Trans_Color = ColorTranslator.FromOle(colp.COLOR);
+                                    player_Color.Add(cmd.ID, Trans_Color);
+
+                                }
                                 break;
                             case 'T':
                                 ChatPacket chatp = JsonSerializer.Deserialize<ChatPacket>(data);
-                                AddMsgLogListBox($"수신 >> {chatp.CHATDATA}");
+                                //AddMsgLogListBox($"수신 >> {chatp.CHATDATA}");
+                                AddMsgLogListBox($"{chatp.ID} >> {chatp.CHATDATA}");
                                 break;
                         }
                     }
@@ -232,7 +363,7 @@ namespace P_MAIN
                 catch (Exception ex)
                 {
                     AddMsgLogListBox($"Recv Error : {ex.Message}");
-                    this.isRunRecv = false;
+                    // this.isRunRecv = false;
                 }
             }
             Invoke(stopButtonState, null);
@@ -249,7 +380,7 @@ namespace P_MAIN
             this.clientSocket = new Socket(AddressFamily.InterNetwork,
                                            SocketType.Stream,
                                            ProtocolType.Tcp);
-            this.ipep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 9000);
+            this.ipep = new IPEndPoint(IPAddress.Parse("192.168.0.26"), 9000);
             AddMsgLogListBox("서버 접속 시도...");
             this.clientSocket.Connect(ipep);
             AddMsgLogListBox("서버 접속 연결!!!");
@@ -266,7 +397,6 @@ namespace P_MAIN
             button_Link.Enabled = false;
             button_exit.Enabled = true;
             textBox_Chat.Enabled = true;
-            tm.Start();
         }
         private void button_exit_Click(object sender, EventArgs e)
         {
@@ -289,26 +419,7 @@ namespace P_MAIN
                 ft, Brushes.Black, 270, 20);
         }
 
-        // 타이머
-        private void Tm_Tick(object sender, EventArgs e)
-        {
-            sec++;
-            if (sec == 60)
-            {
-                min++;
-                if (min == 2)
-                {
-                    textBox1.Text = word;
-                    textBox2.Text = hint;
-                    textBox3.Text = Long;
-                    //버튼클릭창 추가예정
-                    tm.Stop();
-                }
-                sec = 0;
-
-            }
-            Invalidate();
-        }
+        
 
         // 패킷 전송
         void SendPositionPacket(string id, int x, int y)
@@ -344,19 +455,20 @@ namespace P_MAIN
             Graphics g = this.panel_Drawing.CreateGraphics();
             if (e.Button == MouseButtons.Left) // 왼클릭 상태일 때
             {
-                g.SmoothingMode = SmoothingMode.AntiAlias;
+                
                 string id;
                 id = textBox_ID.Text;  // id
 
                 if (playerLocation.ContainsKey(id))
                 {
                     //Console.WriteLine($"if/move {id}, {e.Location}"); // 디버깅 출력용
-                    g.DrawLine(pen, playerLocation[id], e.Location);
+                    //client_pen
+                    g.SmoothingMode = SmoothingMode.AntiAlias;
+                    g.DrawLine(client_pen, playerLocation[id], e.Location);
                     SendPositionPacket(id, playerLocation[id].X, playerLocation[id].Y);
                     playerLocation[id] = e.Location;
                 }
             }
-
         }
 
         private void panel_Drawing_MouseDown(object sender, MouseEventArgs e)
@@ -377,7 +489,7 @@ namespace P_MAIN
                 {
                     //Console.WriteLine($"else/Down {id}, {e.Location}"); //디버깅 출력용
                     playerLocation.Add(id, e.Location);
-
+                    //player_Color.Add(id, Color.Black); // 기본색 추가
                     SendClickPacket(true, id, playerLocation[id].X, playerLocation[id].Y);
                 }
             }
@@ -407,56 +519,117 @@ namespace P_MAIN
         {
             //Graphics g = panel_Drawing.CreateGraphics();
             cl = Color.Black;
-            pen = new Pen(cl, dr);
+            client_pen = new Pen(cl, dr);
         }
 
         private void toolStripButton_Red_Click(object sender, EventArgs e)
         {
             //Graphics g = panel_Drawing.CreateGraphics();
             cl = Color.Red;
-            pen = new Pen(cl, dr);
+            client_pen = new Pen(cl, dr);
         }
 
         private void toolStripButton_Blue_Click(object sender, EventArgs e)
         {
             //Graphics g = panel_Drawing.CreateGraphics();
             cl = Color.Blue;
-            pen = new Pen(cl, dr);
+            client_pen = new Pen(cl, dr);
         }
 
         private void toolStripButton_Green_Click(object sender, EventArgs e)
         {
             //Graphics g = panel_Drawing.CreateGraphics();
             cl = Color.Green;
-            pen = new Pen(cl, dr);
+            client_pen = new Pen(cl, dr);
         }
+
+       
+
 
         private void toolStripButton_Yellow_Click(object sender, EventArgs e)
         {
-            //Graphics g = panel_Drawing.CreateGraphics();
-            cl = Color.Yellow;
-            pen = new Pen(cl, dr);
+            ClickPacket cp = new ClickPacket();
+
+            ColorDialog cd = new ColorDialog();
+            if (cd.ShowDialog() == DialogResult.OK)
+            {
+                Color color = cd.Color;
+                client_pen = new Pen(color, dr);
+
+                int oleColor = ColorTranslator.ToOle(color);
+                ColorPacket colp = new ColorPacket();
+                colp.CMD = 'R';
+
+                string id;
+                id = textBox_ID.Text;  // id
+                colp.ID = id;
+                if (player_int.ContainsKey(id))
+                {
+                    colp.COLOR = oleColor;
+                    player_int[id] = oleColor;
+                    string data = JsonSerializer.Serialize(colp);
+                    
+                    sw.WriteLine(data);
+                    sw.Flush();                    
+                }
+                else
+                {
+                    colp.COLOR = oleColor;
+                    player_int.Add(id, oleColor);
+                    string data = JsonSerializer.Serialize(colp);                    
+                    sw.WriteLine(data);
+                    sw.Flush();                    
+                    
+                }                
+            }           
+                           
         }
 
         private void toolStripButton_P_Click(object sender, EventArgs e)
         {
             // Graphics g = panel_Drawing.CreateGraphics();
             dr += 2;
-            pen = new Pen(cl, dr);
+            client_pen = new Pen(cl, dr);
 
         }
         private void toolStripButton_N_Click(object sender, EventArgs e)
         {
             // Graphicsg = panel_Drawing.CreateGraphics();
             dr -= 2;
-            pen = new Pen(cl, dr);
+            client_pen = new Pen(cl, dr);
 
         }
 
         private void toolStripButton_E_Click(object sender, EventArgs e)
         {
-            Graphics g = panel_Drawing.CreateGraphics();
-            pen = new Pen(Color.White, dr);
+            Graphics g = panel_Drawing.CreateGraphics();            
+            Color color = Color.White;
+            client_pen = new Pen(color, 5);
+
+            int oleColor = ColorTranslator.ToOle(color);
+            ColorPacket colp = new ColorPacket();
+            colp.CMD = 'R';
+            string id;
+            id = textBox_ID.Text;  // id
+            colp.ID = id;
+            if (player_int.ContainsKey(id))
+            {
+                colp.COLOR = oleColor;
+                player_int[id] = oleColor;
+                string data = JsonSerializer.Serialize(colp);
+
+                sw.WriteLine(data);
+                sw.Flush();
+            }
+            else
+            {
+                colp.COLOR = oleColor;
+                player_int.Add(id, oleColor);
+                string data = JsonSerializer.Serialize(colp);
+                sw.WriteLine(data);
+                sw.Flush();
+            }
+
         }
         
 
@@ -485,5 +658,3 @@ namespace P_MAIN
         }
     }
 }
-
-

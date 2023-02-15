@@ -1,0 +1,93 @@
+C:\Users\AIA\Desktop\db\db\bin\Debug\db.exe.config
+C:\Users\AIA\Desktop\db\db\bin\Debug\db.exe
+C:\Users\AIA\Desktop\db\db\bin\Debug\db.pdb
+C:\Users\AIA\Desktop\db\db\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Buffers.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Memory.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Text.Json.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.ValueTuple.dll
+C:\Users\AIA\Desktop\db\db\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Buffers.xml
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Memory.xml
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Text.Json.xml
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\AIA\Desktop\db\db\bin\Debug\System.ValueTuple.xml
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.csproj.AssemblyReference.cache
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.csproj.SuggestedBindingRedirects.cache
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.Form1.resources
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.Properties.Resources.resources
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.csproj.GenerateResource.cache
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.csproj.CoreCompileInputs.cache
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.csproj.CopyComplete
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.exe
+C:\Users\AIA\Desktop\db\db\obj\Debug\db.pdb
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\db.exe.config
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\db.exe
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\db.pdb
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Buffers.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Memory.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Text.Json.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.ValueTuple.dll
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Buffers.xml
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Memory.xml
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Text.Json.xml
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\AIA\Desktop\db - 복사본\db\bin\Debug\System.ValueTuple.xml
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.csproj.AssemblyReference.cache
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.csproj.SuggestedBindingRedirects.cache
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.Form1.resources
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.Properties.Resources.resources
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.csproj.GenerateResource.cache
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.csproj.CoreCompileInputs.cache
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.csproj.CopyComplete
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.exe
+C:\Users\AIA\Desktop\db - 복사본\db\obj\Debug\db.pdb
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\db.exe.config
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\db.exe
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\db.pdb
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Buffers.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Memory.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Text.Json.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.ValueTuple.dll
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Buffers.xml
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Memory.xml
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Text.Json.xml
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\AIA\Desktop\db_1\db\bin\Debug\System.ValueTuple.xml
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.csproj.AssemblyReference.cache
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.csproj.SuggestedBindingRedirects.cache
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.Form1.resources
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.Properties.Resources.resources
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.csproj.GenerateResource.cache
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.csproj.CoreCompileInputs.cache
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.csproj.CopyComplete
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.exe
+C:\Users\AIA\Desktop\db_1\db\obj\Debug\db.pdb
